@@ -21,11 +21,7 @@ class testExactHighestProduct : public ::testing::Test{
 	  virtual void SetUp() {
 
 	  }
-
-//	  std::vector <std::vector<IDValPair<float> > > & getStore (ExactHighestProduct<float> & tester){
-//
-//	  }
-
+	
 };
 
 TEST_F(testExactHighestProduct, testHashTableConstruction){

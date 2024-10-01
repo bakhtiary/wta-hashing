@@ -22,9 +22,6 @@ TEST(CacheAwareWTATest, testTopPicks){
 	int T1 = N*K;
 	int T2 = M*K;
 
-	//WTAHashCacheAware<float> hashTable(8,2,10000,nAccept,K,N);
-
-
 	vector <float> data (T1);
 	boost::variate_generator<boost::mt19937,boost::normal_distribution<> > var_nor(boost::mt19937(1),boost::normal_distribution<>(0.0, 1.0));
 	for (int i = 0; i < T1; i++){
