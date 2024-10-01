@@ -1,0 +1,8 @@
+
+@PACKAGE_INIT@ 
+
+set_and_check(dotProductHashing_INCLUDE_DIRS "@the_INCLUDE_DIRS@")
+
+include ( "${CMAKE_CURRENT_LIST_DIR}/dot_product_hasherTargets.cmake" )
+ 
+
