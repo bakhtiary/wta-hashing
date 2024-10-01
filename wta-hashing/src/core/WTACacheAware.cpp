@@ -5,6 +5,7 @@
  *      Author: amir
  */
 #include "DotProductHasher.hpp"
+#include <xmmintrin.h>
 
 using namespace std;
 

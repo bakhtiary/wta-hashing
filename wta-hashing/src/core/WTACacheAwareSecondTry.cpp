@@ -6,6 +6,8 @@
  */
 #include "DotProductHasher.hpp"
 
+#include <xmmintrin.h>
+
 using namespace std;
 
 const unsigned mapSize = 10200; //2063;
